@@ -84,7 +84,8 @@
         .image {
             flex: 0 0 auto;
             margin: 0 10px;
-            width: 200px;
+            width: auto;
+            max-width: 200px;
             border: 2px solid #fff;
             border-radius: 10px;
             overflow: hidden;
@@ -96,7 +97,6 @@
             max-width: 100%;
             height: auto;
             border-radius: 10px;
-            display: block;
         }
 
         .image p {
@@ -135,27 +135,27 @@
             <div class="image-wheel">
                 <div class="image">
                     <img src="image1.jpg" alt="Image 1">
-                    <p>Sanelios Bot: An Advanced Discord Bot</p>
+                    <p>hi</p>
                 </div>
                 <div class="image">
-                    <img src="image2.jpg" alt="Image 2">
-                    <p>Sanelios Bot: An advanced Discord bot with many different features!</p>
+                    <img src="image1.jpg" alt="Image 1">
+                    <p>hi</p>
                 </div>
                 <div class="image">
-                    <img src="image3.jpg" alt="Image 3">
-                    <p>Sanelios Bot: Another awesome project!</p>
+                    <img src="image1.jpg" alt="Image 1">
+                    <p>hi</p>
                 </div>
                 <div class="image">
-                    <img src="image4.jpg" alt="Image 4">
-                    <p>Sanelios Bot: Yet another cool project!</p>
+                    <img src="image1.jpg" alt="Image 1">
+                    <p>hi</p>
                 </div>
                 <div class="image">
-                    <img src="image5.jpg" alt="Image 5">
-                    <p>Sanelios Bot: Fifth project</p>
+                    <img src="image1.jpg" alt="Image 1">
+                    <p>hi</p>
                 </div>
                 <div class="image">
-                    <img src="image6.jpg" alt="Image 6">
-                    <p>Sanelios Bot: Sixth project</p>
+                    <img src="image1.jpg" alt="Image 1">
+                    <p>hi</p>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@
         function scrollToSection(sectionId) {
             const section = document.getElementById(sectionId);
             window.scrollTo({
-                top: section.offsetTop - 50, // Adjusting for the header height
+                top: section.offsetTop - 50,
                 behavior: 'smooth'
             });
         }
